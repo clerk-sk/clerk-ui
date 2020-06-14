@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Login.css';
 
 export default class Login extends Component {
 
@@ -32,7 +32,7 @@ export default class Login extends Component {
         return (
             <div>
                 <header>
-                    <nav>
+                    <nav className="loginNav">
                         <h1>Clerk</h1>
                     </nav>
                 </header>
@@ -54,7 +54,7 @@ export default class Login extends Component {
                     </div>
                 </section>
                 <footer>
-                    <div>&copy Hlavac Inc. 2020</div>
+                    <div>&#169; Hlavac Inc. 2020</div>
                 </footer>  
             </div>
         );
