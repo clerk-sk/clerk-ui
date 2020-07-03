@@ -7,5 +7,4 @@ RUN npm run build
 
 FROM nginx:1.13.9-alpine
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY common.conf /etc/nginx/common.conf
 RUN mkdir -p /www/data
