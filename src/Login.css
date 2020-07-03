@@ -12,13 +12,13 @@ html, body {
 /******************* HEADER *********************/
 /************************************************/
 
-nav {
+.loginNav {
     height: 60px;
     margin-bottom: 15px;
     background-color: dimgray;
 }
 
-nav h1 {
+.loginNav h1 {
     margin: auto;
     padding: 12px 12px;
     color: #ffffff;
@@ -135,15 +135,21 @@ footer div {
         font-size: 1.5rem;
         height: 60px;
     }
-    nav {
+    .loginNav {
         height: 5rem;
     }
-    nav h1 {
+    .loginNav h1 {
         font-size: 3rem;
     }
 
     footer {
         height: 2rem;
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    section .container {
+        margin: 3rem 60rem;
     }
 }
