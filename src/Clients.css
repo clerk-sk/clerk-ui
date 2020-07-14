@@ -1,0 +1,75 @@
+.clientsSelected {
+    font-weight: 700;
+}
+
+.clientsContainer {
+    display: flex;
+    flex-basis: 90%;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+    .clientsSearch {
+        display: flex;
+        flex-basis: 20%;
+        align-items: center;
+        padding-left: 4rem;
+        color: #918D8D;
+    }
+
+        .clientsSearch h1 {
+            padding-right: 4rem;
+        }
+
+        .clientsInput {
+            height: 30px;
+            width: 500px;
+            padding: 9px;
+            font-size: medium;
+            background-color: #F8F8F8;
+            border: none;
+            transition: all 150ms 50ms ease-in-out;
+        }
+
+        .clientsInput:focus {
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgba(80, 82, 85, 0.25);
+        }
+
+        .clientsSearch button {
+            width: 80px;
+            height: 30px;
+            margin-left: 2rem;
+        }
+
+    .clientsContent {
+        display: flex;
+        flex-basis: 80%;
+        flex-direction: column;
+    }
+
+        .clientsList {
+            display: flex;
+        }
+
+            .clientsTable {
+                margin-left: 4rem;
+                flex-basis: 80%
+            }
+
+            .clientsTable thead th {
+                text-align: inherit;
+            }
+
+            .clientsTable td,th {
+                padding: 8px 0;
+            }
+
+            .clientsTable a {
+                text-decoration: none;
+                color: #000
+            }
+
+            .clientsTable tbody tr:nth-child(odd) {
+                background-color: #F8F8F8;
+            }

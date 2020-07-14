@@ -7,6 +7,8 @@ import {
   } from "react-router-dom";
 import Login from './Login';
 import { Dashboard } from './Dashboard';
+import { Clients } from './Clients';
+import { Client } from './Client';
 
 class App extends Component {
 
@@ -25,6 +27,12 @@ class App extends Component {
                         </Route>
                         <Route path="/dashboard">
                             <Dashboard />
+                        </Route>
+                        <Route path="/clients">
+                            <Clients />
+                        </Route>
+                        <Route path="/client">
+                            <Client />
                         </Route>
                     </Switch>
                 </Router>

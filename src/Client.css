@@ -1,0 +1,10 @@
+.clientContent {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    background-color: #fff;
+}
+
+.clientContent h2 {
+    margin: 4rem 0 0 60px;
+}

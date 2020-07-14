@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import './Dashboard.css';
+import './Client.css';
 
-export class Dashboard extends Component {
+export class Client extends Component {
     constructor() {
         super();
     }
@@ -28,23 +28,18 @@ export class Dashboard extends Component {
                         </nav>  
                     </div>
 
-                    <div className="content">
-                        <p>"Perfection is achieved, not when there is nothing more to add, 
-                            but when there is nothing left to take away." 
-                            -Antoine de Saint-Exupery
-                        </p>
+                    <div className="clientContent">
+                        <h2>Peter Mrkva</h2>
+                        <div></div>
                     </div>
 
                     <div className="info">
                         <div className="dashboardLastOpened">
-                            <h3>Naposledy otvorené:</h3>
+                            <h3>Informácie o klientovi</h3>
                             <p>daky text o niecom</p>
                         </div>
                         <div className="dashboardNotes">
-                            <h3>Poznámky:</h3>
-                        </div>
-                        <div className="dashboardCalendar">
-                            <h3>Najbližšie udalosti v kalendári:</h3>
+                            <h3>Poznámky</h3>
                         </div>
                     </div>
                 </div> 

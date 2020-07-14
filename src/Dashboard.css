@@ -10,10 +10,16 @@
     text-align: center;
 }
 
-.sideBar h3 {
-    color: #fff;
-    margin-bottom: 12px;
-}
+    .sideBar h3 {
+        color: #fff;
+        margin-bottom: 12px;
+    }
+
+    .sideBar a {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+    }
 
 .dashContainer {
     display: flex;
@@ -63,6 +69,21 @@
         
     .info {
         display: flex;
+        flex-wrap: wrap;
         flex-basis: 57%;
         background-color: #F8F8F8;
     }
+
+        .dashboardLastOpened {
+            flex-basis: 43%;
+            padding: 4rem 0px 0px 4rem;
+        }
+
+        .dashboardNotes {
+            flex-basis: 50%;
+            padding-top: 4rem;
+        }
+
+        .dashboardCalendar {
+            padding-left: 4rem;;
+        }

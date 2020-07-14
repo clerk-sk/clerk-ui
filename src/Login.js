@@ -38,7 +38,7 @@ export default class Login extends Component {
                 </header>
 
                 <section className="login">
-                    <div className="container">
+                    <div className="loginContainer">
                         <h1>Sign in</h1>
 
                         <form onSubmit={this.handleSubmit}>
